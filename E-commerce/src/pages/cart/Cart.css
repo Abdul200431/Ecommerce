@@ -1,0 +1,32 @@
+.cart{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+.empty-card {
+    width: 100%;
+    height: 100%;
+     display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.empty-card img {
+    width: 90%;
+    max-width: 400px;
+  
+    margin-top: 40px;
+}
+.price-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
